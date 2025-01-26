@@ -1,0 +1,31 @@
+{
+  "Example": {
+    "PEGASUS": [
+      "Avoniv",
+      "Sandovi",
+      "Zeo",
+      "Tahnan",
+      "Setas",
+      "Alura",
+      "Subido"
+    ],
+    "MILKYWAY": [
+      "Scutum",
+      "Centaurus",
+      "Norma",
+      "Libra",
+      "Crater",
+      "Scutum",
+      "Point of Origin"
+    ],
+    "UNIVERSE": [
+      "Glyph 31",
+      "Glyph 11",
+      "Glyph 2",
+      "Glyph 7",
+      "Glyph 14",
+      "Glyph 15",
+      "Glyph 17"
+    ]
+  }
+}

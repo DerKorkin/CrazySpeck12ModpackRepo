@@ -1,0 +1,221 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=6043821%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 40
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -49
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 38
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 27687aaa-63d2-450d-80cc-6bb375ad5f241737406707097
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = 0ac58076-aff1-41ae-b6a5-1dcf911fa3771737406707107
+  y = 285
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1506f897-9239-47f1-9e8f-1adba47dc0751737406707108
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 415c20a4-c63d-42ae-8ea8-13ed123a76ea1737406707109
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 20ea6c5b-4b06-4f2d-9b47-5a3437e1a6141737406707109
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 09ec654e-6698-4f04-b4a5-3590e5f975421737406707110
+  y = 0
+  height = 30
+}
+
+customization {
+  path = mods/cs12logo.png
+  orientation = top-centered
+  x = -167
+  width = 334
+  actionid = d7070ac3-a254-4daf-bb57-5499f636ab451737406721095
+  action = addtexture
+  y = 33
+  height = 59
+}
+
+customization {
+  path = mods/teamkorkcraft.png
+  orientation = bottom-right
+  x = -73
+  width = 56
+  actionid = cb1119ed-7555-4270-a2e0-87234e0219b61737484931254
+  action = addtexture
+  y = -59
+  height = 54
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Präsentiert von:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = cb1119ed-7555-4270-a2e0-87234e0219b61737484931254
+  x = -16
+  width = 87
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = abd3abfc-06aa-4005-b60e-3716aff2b6bc1737484977770
+  y = -9
+  alignment = centered
+  base_color = #ff6a00
+  height = 18
+}
+
+customization {
+  orientation = element
+  basecolor = #0088ff
+  shadow = true
+  rotation = 10.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  orientation_element = d7070ac3-a254-4daf-bb57-5499f636ab451737406721095
+  x = -10
+  actionid = 8bcbe246-2326-4572-b1e8-05d0482687601737485085326
+  action = addsplash
+  y = 53
+  text = Zurück zu den Anfängen!
+}
+
+customization {
+  hoversound = mods/shavingballs.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.tiktok.com/@mic_edit47/video/7453751982109592838%btnaction_splitter_fm%
+  backgroundhovered = mods/rasierung.png
+  label = 
+  clicksound = mods/alexsupercombo.wav
+  loopbackgroundanimations = true
+  x = 13
+  width = 132
+  action = addbutton
+  actionid = c5c97631-7145-48cf-8d19-5afe8d0f492d1737485209765
+  y = -2
+  backgroundnormal = mods/freedownload.png
+  height = 36
+}
+

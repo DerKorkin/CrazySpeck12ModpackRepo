@@ -1,0 +1,194 @@
+{
+  "-1": {
+    "name": "the_nether",
+    "distance": 5,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {
+      "NORMAL": 2
+    }
+  },
+  "0": {
+    "name": "overworld",
+    "distance": 0,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {}
+  },
+  "1": {
+    "name": "the_end",
+    "distance": 10,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 1
+    }
+  },
+  "-13": {
+    "name": "planet.Mercury",
+    "distance": -65,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-15": {
+    "name": "planet.Jupiter",
+    "distance": -75,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-16": {
+    "name": "planet.Saturn",
+    "distance": -80,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-17": {
+    "name": "planet.Uranus",
+    "distance": -85,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-18": {
+    "name": "planet.Neptune",
+    "distance": -90,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-19": {
+    "name": "planet.Pluto",
+    "distance": -95,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-20": {
+    "name": "planet.Ceres",
+    "distance": -100,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-21": {
+    "name": "planet.Eris",
+    "distance": -105,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-22": {
+    "name": "planet.kepler22b",
+    "distance": -110,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1500": {
+    "name": "moon.io",
+    "distance": -7500,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-28": {
+    "name": "moon.moon",
+    "distance": 15,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1501": {
+    "name": "moon.europa",
+    "distance": -7505,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-29": {
+    "name": "planet.mars",
+    "distance": 40,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 4
+    }
+  },
+  "-1502": {
+    "name": "moon.phobos",
+    "distance": -7510,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-30": {
+    "name": "planet.asteroids",
+    "distance": 63,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1503": {
+    "name": "moon.deimos",
+    "distance": -7515,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-31": {
+    "name": "planet.venus",
+    "distance": 37,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 4
+    }
+  },
+  "-1504": {
+    "name": "moon.triton",
+    "distance": -7520,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1505": {
+    "name": "moon.callisto",
+    "distance": -7525,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1506": {
+    "name": "moon.ganymede",
+    "distance": -7530,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1507": {
+    "name": "moon.rhea",
+    "distance": -7535,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1508": {
+    "name": "moon.titan",
+    "distance": -7540,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1509": {
+    "name": "moon.oberon",
+    "distance": -7545,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1510": {
+    "name": "moon.titania",
+    "distance": -7550,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-1511": {
+    "name": "moon.iapetus",
+    "distance": -7555,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-44": {
+    "name": "Pocket dimension",
+    "distance": -220,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "-343800852": {
+    "name": "Spectre",
+    "distance": -1719004260,
+    "groups": [],
+    "milkyWayOrigins": {}
+  }
+}

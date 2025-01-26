@@ -1,0 +1,67 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=582972%
+  orientation = element
+  orientation_element = vanillabtn:504948
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=582972%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504972%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = WARNUNG:%n%Einzelspieler ist wie immer%n%broke ass und nur für%n%High-End PCs weil Minecraft%n%Einzelspieler-Optimierungen%n%nicht existieren.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 6
+  width = 154
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 677afa82-4669-4bc6-8316-b9130be6a4b31737487144784
+  y = -87
+  alignment = centered
+  height = 85
+}
+
+customization {
+  path = mods/lugi.png
+  orientation = element
+  orientation_element = 677afa82-4669-4bc6-8316-b9130be6a4b31737487144784
+  x = 7
+  width = 138
+  actionid = be78295e-0015-446f-bc4e-6956e2ff4a471737487319585
+  action = addtexture
+  y = 67
+  height = 100
+}
+
