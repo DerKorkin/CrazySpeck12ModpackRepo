@@ -75,7 +75,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 186
   width = 268
   action = deep_customization_element:title_screen_forge_top
@@ -155,12 +155,12 @@ customization {
 customization {
   path = mods/teamkorkcraft.png
   orientation = bottom-right
-  x = -73
-  width = 56
+  x = -78
+  width = 75
   actionid = cb1119ed-7555-4270-a2e0-87234e0219b61737484931254
   action = addtexture
-  y = -59
-  height = 54
+  y = -68
+  height = 68
 }
 
 customization {
@@ -174,11 +174,11 @@ customization {
   source_mode = direct
   line_spacing = 1
   orientation_element = cb1119ed-7555-4270-a2e0-87234e0219b61737484931254
-  x = -16
+  x = -5
   width = 87
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = abd3abfc-06aa-4005-b60e-3716aff2b6bc1737484977770
-  y = -9
+  y = -5
   alignment = centered
   base_color = #ff6a00
   height = 18
@@ -217,5 +217,22 @@ customization {
   y = -2
   backgroundnormal = mods/freedownload.png
   height = 36
+}
+
+customization {
+  orientation = element
+  basecolor = #ffff00
+  shadow = true
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  orientation_element = d7070ac3-a254-4daf-bb57-5499f636ab451737406721095
+  x = 140
+  actionid = 1ad10638-a8fc-42ef-b2f7-ead156c50f8b1748886481297
+  action = addsplash
+  y = 67
+  text = v1.1
 }
 
